@@ -1,0 +1,41 @@
+{
+	"@type":"Hierarchy",
+	"Name":"zDummyCube_Amin Measure",
+	"Elements":
+	[
+		{
+			"Name":"Dummy2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dummy",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"A",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"C",
+			"ComponentName":"A",
+			"Weight":1
+		},
+		{
+			"ParentName":"C",
+			"ComponentName":"B",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

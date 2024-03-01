@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"zDummyCube_Amin Measure",
+	"Hierarchies@Code.links":
+	[
+		"zDummyCube_Amin Measure.hierarchies/zDummyCube_Amin Measure.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('zDummyCube_Amin Measure')/Hierarchies('zDummyCube_Amin Measure')"
+	}
+}
