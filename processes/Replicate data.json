@@ -1,0 +1,58 @@
+{
+	"@type":"Process",
+	"Name":"Replicate data",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"Replicate data.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCubePrefix",
+			"Prompt":"",
+			"Value":"plan_Control",
+			"Type":"String"
+		},
+		{
+			"Name":"pRemoteDatabase",
+			"Prompt":"",
+			"Value":"git%20demo",
+			"Type":"String"
+		},
+		{
+			"Name":"pBaseURL",
+			"Prompt":"",
+			"Value":"https://ap-southeast-2.aws.planninganalytics.ibm.com/api/",
+			"Type":"String"
+		},
+		{
+			"Name":"pEnvironmentID",
+			"Prompt":"",
+			"Value":"U3RC8759XLAG",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportProcess",
+			"Prompt":"",
+			"Value":"Export Leaf Data Native",
+			"Type":"String"
+		},
+		{
+			"Name":"pCleanRemoteProcess",
+			"Prompt":"",
+			"Value":"Y",
+			"Type":"String"
+		},
+		{
+			"Name":"pCleanRemoteExportData",
+			"Prompt":"",
+			"Value":"Y",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"VariablesUIData": [],
+	"UIData": "_ParameterConstraints=e30=\f"
+}
